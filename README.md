@@ -1,5 +1,5 @@
 # 2c.SIMULATING ARP /RARP PROTOCOLS
-## AIM
+## AIM:
 To write a python program for simulating ARP protocols using TCP.
 ## ALGORITHM:
 ## Client:
@@ -17,7 +17,7 @@ stored.
 5. Map the IP address with its MAC address and return the MAC address to client.
 
 ## PROGRAM - ARP
-# Client program:
+### Client program:
 ```
 import socket
 s=socket.socket()
@@ -32,7 +32,7 @@ while True:
     except KeyError:
         c.send("Not Found".encode())
 ```
-# Server program:
+### Server program:
 ```
 import socket
 s=socket.socket()
@@ -44,15 +44,15 @@ while True:
 ```
 
 ## OUPUT - ARP
-# Client output:
+### Client output:
 ![Screenshot 2024-03-07 185331](https://github.com/HEMAKESHG/2c.ARP_RARP_PROTOCOLS/assets/144870552/8b8750ac-5ffd-4e5d-83cb-2c6766f40ee3)
 
-# Server output:
+### Server output:
 ![Screenshot 2024-03-07 185349](https://github.com/HEMAKESHG/2c.ARP_RARP_PROTOCOLS/assets/144870552/635bc36f-f75f-454f-815a-22360f679278)
 
 
 ## PROGRAM - RARP
-## OUPUT -RARP
+## OUTPUT -RARP
 ## RESULT
 Thus, the python program for simulating ARP protocols using TCP was successfully 
 executed.
