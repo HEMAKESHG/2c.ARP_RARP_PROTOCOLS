@@ -1,4 +1,4 @@
-# 2c.SIMULATING ARP /RARP PROTOCOLS
+# 2c.i.SIMULATING ARP PROTOCOLS
 ## AIM:
 To write a python program for simulating ARP protocols using TCP.
 ## ALGORITHM:
@@ -49,6 +49,25 @@ while True:
 ### Server output:
 ![Screenshot 2024-03-07 191144](https://github.com/HEMAKESHG/2c.ARP_RARP_PROTOCOLS/assets/144870552/ebe97570-656f-42a8-8518-dc261b039ef2)
 
+## RESULT
+Thus, the python program for simulating ARP protocols using TCP was successfully executed.
+
+# ii.SIMULATING RARP PROTOCOLS
+## AIM:
+To write a python program for simulating RARP protocols using UDP
+## ALGORITHM:
+### Client:
+1. Start the program
+2. Using datagram sockets UDP function is established.
+3. Get the MAC address to be converted into IP address.
+4. Send this MAC address to server.
+5. Server returns the IP address to client.
+### Server:
+1. Start the program.
+2. Server maintains the table in which IP and corresponding MAC addresses are stored.
+3. Read the MAC address which is send by the client.
+4. Map the IP address with its MAC address and return the IP address to client.
+5. 
 ## PROGRAM - RARP
 ### Client program:
 ```
@@ -82,6 +101,5 @@ while True:
 ### Server output:
 ![Screenshot 2024-03-07 185349](https://github.com/HEMAKESHG/2c.ARP_RARP_PROTOCOLS/assets/144870552/635bc36f-f75f-454f-815a-22360f679278)
 
-## RESULT
-Thus, the python program for simulating ARP protocols using TCP was successfully 
-executed.
+## RESULT:
+Thus, python program for simulating RARP protocols using UDP was successfully executed.
